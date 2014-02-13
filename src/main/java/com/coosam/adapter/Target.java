@@ -1,6 +1,11 @@
 package com.coosam.adapter;
 
-public interface Target
-{
+/**
+ * Target目标角色：这是一个接口，定义了客户所期望的操作
+ * 
+ * @author Administrator
+ * 
+ */
+public interface Target {
 	public void request();
 }
